@@ -62,3 +62,17 @@ nav {
 .main-bg-area img {
     width: 100%;
 }
+/* Bottom arrow section */
+.bottom-arrows {
+    text-align: right;
+    padding: 1vh 0;
+}
+.bottom-arrows i{
+    font-size: 3vw;
+    padding: 1vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 0 1vw;
+    color: #fff;
+    background-color: #918233;
+}

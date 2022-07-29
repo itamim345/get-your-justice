@@ -58,3 +58,7 @@ nav {
     font-size: 5vw;
     color: #fff;
 }
+/* Main bg area CSS */
+.main-bg-area img {
+    width: 100%;
+}

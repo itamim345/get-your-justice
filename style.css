@@ -76,3 +76,28 @@ nav {
     color: #fff;
     background-color: #918233;
 }
+
+/* Responsive CSS */
+@media(max-width: 800px){
+    /* nav-area */
+    nav {
+        flex-direction: column;
+    }
+    .register-btn {
+        display: block;
+        width: 20vw;
+        font-size: 3vw;
+        margin: 3vh auto !important;
+    }
+    .logo-area img {
+        margin-bottom: 3vh;
+        height: 60%;
+        width: auto;
+    }
+    /* intro-area */
+    .intro-area {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+}
